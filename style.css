@@ -1,0 +1,11 @@
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: rgba(170, 208, 241, 0.6);
+}
+header{
+    background-color: rgb(170, 208, 241);
+    box-shadow: 2px 3px 3px teal;
+}
