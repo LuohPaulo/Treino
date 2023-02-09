@@ -1,4 +1,7 @@
-
+*{
+    padding: 0;
+    margin: 0;
+}
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -8,4 +11,12 @@ body{
 header{
     background-color: rgb(170, 208, 241);
     box-shadow: 2px 3px 3px teal;
+}
+div{
+    text-align: center;
+    margin-top: 20px;
+}
+input#pais{
+    width: 35px;
+    
 }
