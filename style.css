@@ -16,7 +16,29 @@ div{
     text-align: center;
     margin-top: 20px;
 }
+#conteudo{
+    margin-top: 150px;
+}
+input{
+    border-radius: 5px;
+    border: 0px;
+    padding: 3px;
+}
 input#pais{
-    width: 35px;
-    
+    width: 35px;   
+}
+div > p{            /* '>' usado com combinador/ seletor filho ('p' filho de 'div') */
+    margin: 30px;
+}
+#submit{
+    width: 200px;
+    margin: 10px;
+    height: 30px;
+    opacity: 0.7;
+}
+#submit:hover{
+    opacity: 1;
+}
+#footer{
+    background-color: antiquewhite;
 }

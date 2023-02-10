@@ -15,17 +15,26 @@
     <div id="conteudo"></div>
         <div>
             <img src="img/logoTreino.png" alt="image">
-        </div>
-        <div>
-            <label for="pais">País</label>
-            <input type="text" id="pais" placeholder="+55" value="+55" maxlength="4">
-            <label for="celular">Celular</label>
-            <input type="tel" id="cel" placeholder="(xx) xxxxx-xxxx">
-        </div>
-        <div>
-            <input type="submit" value="Verificar">
+
+            <p> <label for="pais">País</label>
+                <input type="text" id="pais" placeholder="+55" value="+55" maxlength="4">
+                <label for="celular">Celular</label>
+                <input type="tel" id="cel" placeholder="(xx) xxxxx-xxxx"> </p>
+
+        
+            <p>
+                <input type="submit" id="submit" value="VERIFICAR CELULAR" onclick="verif()">
+            </p>
         </div>
     </div>
+
+    <div id="footer">
+        <hr>
+        <footer>
+            <p>&copy; @DateTime.Now.Year</p>
+        </footer>
+    </div>
     
+    <script src="script.js"></script>
 </body>
 </html>
