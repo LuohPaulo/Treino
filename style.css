@@ -14,10 +14,9 @@ header{
 }
 div{
     text-align: center;
-    margin-top: 20px;
 }
 #conteudo{
-    margin-top: 150px;
+    margin-top: 10%;
 }
 input{
     border-radius: 5px;
@@ -25,7 +24,7 @@ input{
     padding: 3px;
 }
 input#pais{
-    width: 35px;   
+    width: 35px;
 }
 div > p{            /* '>' usado com combinador/ seletor filho ('p' filho de 'div') */
     margin: 30px;
@@ -40,5 +39,12 @@ div > p{            /* '>' usado com combinador/ seletor filho ('p' filho de 'di
     opacity: 1;
 }
 #footer{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
     background-color: antiquewhite;
+    color: teal;
+
 }
